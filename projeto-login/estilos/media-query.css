@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #0d0e1f, #3f4179);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+    
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+        padding-top: 12%;
+
+    }
+
+    div#formulario > p {
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 60%;
+        height: 40px;
+        color: #17234c;
+        background-color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        border: 2px solid #17234c;
+        padding-top: 5px;
+        font-weight: bold;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+
+    form > input[type=button] {
+        display: block;
+        font-size: 1em;
+        width: 60%;
+        height: 40px;
+        background-color: #17234c;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: auto;
+    
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    body {
+        background-image: linear-gradient(to top, #0d0e1f, #3f4179);
+    }
+    
+    section#login {
+        width: 990px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding-top: 12%;
+    }
+
+    div#formulario > p {
+        display: block;
+        text-align: center;
+        font-size: 1.0em;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 60%;
+        height: 40px;
+        color: #17234c;
+        background-color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        border: 2px solid #17234c;
+        padding-top: 5px;
+        font-weight: bold;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+
+    form > input[type=button] {
+        display: block;
+        font-size: 1em;
+        width: 60%;
+        height: 40px;
+        background-color: #17234c;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: auto;
+    
+    }
+}
